@@ -2,6 +2,7 @@ FROM paijp/centos6-apache-php-sqlite2
 
 RUN \
 	set -x &&\
+	yum -y update &&\
 	yum -y install php-gd php-mbstring wget
 RUN \
 	set -x &&\
