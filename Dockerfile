@@ -8,6 +8,7 @@ RUN \
 	set -x &&\
 	cd /var/www/html/ &&\
 	mkdir -p fonts &&\
+	cd fonts &&\
 	wget 'https://github.com/tadwg/tadview/raw/master/fonts/tcmap.sq2' &&\
 	wget 'https://github.com/tadwg/tadview/raw/master/fonts/ipag.ttf' &&\
 	wget 'https://github.com/tadwg/tadview/raw/master/fonts/ipagp.ttf' &&\
