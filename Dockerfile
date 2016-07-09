@@ -71,6 +71,7 @@ RUN \
 	wget 'https://github.com/tadwg/tadview/raw/master/zend/Pdf/Resource/Font/CidFont.php'
 RUN \
 	set -x &&\
+	ldconfig /usr/local/lib &&\
 	cd /var/www/html/ &&\
 	wget 'https://github.com/tadwg/tadview/raw/master/index.html' &&\
 	wget 'https://github.com/tadwg/tadview/raw/master/ath.txt' &&\
