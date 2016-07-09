@@ -69,6 +69,7 @@ RUN \
 	cd Font/ &&\
 	mv CidFont.php CidFont_160624.php &&\
 	wget 'https://github.com/tadwg/tadview/raw/master/zend/Pdf/Resource/Font/CidFont.php'
+
 RUN \
 	set -x &&\
 	ldconfig /usr/local/lib &&\
